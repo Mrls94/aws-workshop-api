@@ -16,15 +16,15 @@
           "value": "aws_workshop"
         },
         {
-          "name": "DATABASE_NAME",
+          "name": "DATABASE_USER",
           "value": "aws_workshop"
         },
         {
-          "name": "DATABASE_NAME",
-          "value": "aws_workshop"
+          "name": "DATABASE_PASSWORD",
+          "value": "weloveux"
         },
         {
-          "name": "DATABASE_NAME",
+          "name": "DATABASE_HOST",
           "value": "aws-workshop-db.cwexf7cypnh1.us-east-1.rds.amazonaws.com"
         }
       ],
