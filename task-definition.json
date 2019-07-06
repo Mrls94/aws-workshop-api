@@ -1,0 +1,46 @@
+{
+  "executionRoleArn": "arn:aws:iam::531274782560:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "protocol": "tcp",
+          "containerPort": 3000
+        }
+      ],
+      "cpu": 0,
+      "environment": [
+        {
+          "name": "DATABASE_NAME",
+          "value": "aws_workshop"
+        },
+        {
+          "name": "DATABASE_NAME",
+          "value": "aws_workshop"
+        },
+        {
+          "name": "DATABASE_NAME",
+          "value": "aws_workshop"
+        },
+        {
+          "name": "DATABASE_NAME",
+          "value": "aws-workshop-db.cwexf7cypnh1.us-east-1.rds.amazonaws.com"
+        }
+      ],
+      "mountPoints": [],
+      "memoryReservation": 64,
+      "volumesFrom": [],
+      "image": "531274782560.dkr.ecr.us-east-1.amazonaws.com/aws-workshop-api:latest",
+      "essential": true,
+      "name": "aws-workshop-api"
+    }
+  ],
+  "taskRoleArn": "arn:aws:iam::531274782560:role/ecsTaskExecutionRole",
+  "family": "aws-workshop-api",
+  "requiresCompatibilities": [
+    "EC2"
+  ],
+  "volumes": [],
+  "placementConstraints": []
+}
